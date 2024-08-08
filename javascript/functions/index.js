@@ -1,5 +1,6 @@
 // Funções
 // Entrada - Procedimento - Saída
+// Função sempre vai ter procedimento.
 // Bloco de código que pode ser executado e reutilizado
 // As entradas são chamadas de parâmetro
 // As saídas são chamadas de retorno
