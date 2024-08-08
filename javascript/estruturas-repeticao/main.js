@@ -10,7 +10,7 @@ const condicao = true;
 while (condicao) {
   console.log("Enquanto a condição for verdadeira.");
 }
-
+// Executado pelo menos uma vez
 do {
   console.log("Faça enquanto a condição for falsa");
 } while (condicao === false);
