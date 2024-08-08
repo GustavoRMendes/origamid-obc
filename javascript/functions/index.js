@@ -31,3 +31,32 @@ function pi() {
 }
 const total = 10 * pi();
 console.log(total.toFixed(2));
+
+function triploDoTotal(dinheiro = 0) {
+  const total = 3 * dinheiro;
+  return total;
+}
+
+console.log(triploDoTotal(30));
+console.log(triploDoTotal());
+function criarUsuario(senha, nome, email) {
+  const usuario = {
+    nome,
+    email,
+    senha,
+  };
+  return usuario;
+}
+console.log(criarUsuario(20102004, "Gustavo", "gustavormendess@gmail.com"));
+
+// Quando você tem muitos parâmetros na função, você pode optar por substituir por um parâmetro como objeto.
+
+function novaJogadora(jogadora) {
+  return jogadora.nome + " " + jogadora.sobrenome;
+}
+
+const alice = {
+  nome: "alice",
+  sobrenome: "rua",
+};
+console.log(novaJogadora(alice));
