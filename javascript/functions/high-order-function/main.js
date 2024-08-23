@@ -32,3 +32,15 @@ personagens.map((pessoa) => {
 });
 
 console.log(listaDeNomes);
+
+const filtro = personagens.filter((person) => {
+  return person.nivel > 30;
+});
+
+console.log(filtro);
+
+const reduzir = personagens.reduce((acc, valor) => {
+  return acc + valor.nivel;
+}, 0);
+
+console.log(reduzir);
